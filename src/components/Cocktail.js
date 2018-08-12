@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cocktail = (props) => {
   return (
-    <li></li>
+    <li onClick={() => props.handleClick(props.cocktail)}>{props.cocktail.name}</li>
   )
 }
 
